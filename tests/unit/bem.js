@@ -7,6 +7,38 @@ describe('AngularJS.BEM', function () {
         ajsBem = _ajsBem_;
     }));
 
+    describe('elementSeparator field', function () {
+        it('should be changeable', function () {
+            // Arrange.
+            ajsBem.elementSeparator = '--';
+
+            // Act & Assert.
+            expect(ajsBem.element('product', 'name')).toEqual('product--name');
+        });
+    });
+
+    describe('modifierSeparator field', function () {
+        it('should be changeable', function () {
+            // Arrange.
+            ajsBem.modifierSeparator = '-';
+
+            // Act & Assert.
+            expect(ajsBem.elementModifier('product', 'name', { size: 'xs' }))
+                .toEqual('product__name-size_xs');
+        });
+    });
+
+    describe('modifierValueSeparator field', function () {
+        it('should be changeable', function () {
+            // Arrange.
+            ajsBem.modifierValueSeparator = '-';
+
+            // Act & Assert.
+            expect(ajsBem.elementModifier('product', 'name', { size: 'xs' }))
+                .toEqual('product__name_size-xs');
+        });
+    });
+
     describe('block method', function () {
         it('should create a CSS class of the block using the name of the block and a list of modifiers', function () {
             // Act & Assert.
