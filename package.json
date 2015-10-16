@@ -1,8 +1,8 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "angularjs-bem",
     "title": "AngularJS.BEM",
-    "description": "AngularJS.BEM is a small AngularJS module that helps to create CSS classes according to the BEM methodology.",
+    "description": "A small AngularJS module that helps to create CSS classes according to the BEM methodology.",
     "homepage": "https://github.com/eakoryakin/angularjs-bem",
     "author": {
         "name": "Evgenii Koriakin",
