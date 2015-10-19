@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "2.0.0",
     "name": "angularjs-bem",
     "title": "AngularJS.BEM",
     "description": "A small AngularJS module that helps to create CSS classes according to the BEM methodology.",

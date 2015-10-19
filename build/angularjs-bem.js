@@ -6,9 +6,9 @@
  * Released under the MIT license.
  */
 angular.module('AngularJS.BEM', []);
-angular.module('AngularJS.BEM').factory('ajsBem', ajsBem);
+angular.module('AngularJS.BEM').factory('eqBem', eqBem);
 
-function ajsBem() {
+function eqBem() {
     var bem = {};
 
     bem.elementSeparator = '__';
