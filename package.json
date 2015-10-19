@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "name": "angularjs-bem",
     "title": "AngularJS.BEM",
     "description": "A small AngularJS module that helps to create CSS classes according to the BEM methodology.",
@@ -16,13 +16,10 @@
     "keywords": [
         "BEM",
         "bem",
-        "bem module",
         "methodology",
-        "javascript",
-        "angularjs module",
-        "angular module",
-        "angularjs service",
-        "angular service"
+        "angular",
+        "angularjs",
+        "module"
     ],
     "bugs": {
         "url": "https://github.com/eakoryakin/angularjs-bem/issues"
